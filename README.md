@@ -42,45 +42,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+| Platform | Description | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[RangeForce](https://www.rangeforce.com/)** | Enterprise cyber-readiness and hands-on training platform providing technical labs, team exercises, and cyber-defense readiness capabilities (part of Cyberbit). | Starting at ~$11,000–$12,000/year (enterprise contract benchmark; private offer on AWS Marketplace) | **Free Solo Labs:** Access to select introductory defensive modules and hands-on skill labs at no cost; 6-month RSAC member preview. |
+| **[Cyberbit](https://www.cyberbit.com/)** | Enterprise cyber-range and SOC training platform focused on realistic team-based cyber-defense exercises, incident response, and operational readiness. | Starting at ~$7,200/year (~$1,200–$1,500/user/year, typically 5-seat minimum) | **Cyberbit Free Edition:** Access to select foundational solo hands-on labs and theory modules; 1 live team exercise via PoC evaluation. |
+| **[Immersive Labs](https://www.immersivelabs.com/)** | Cyber workforce resilience platform providing hands-on technical exercises, threat simulations, and role-based learning paths. | Starting at ~$6,000–$10,000/year (Core tier for small teams, min 5 users) | **Cyber Million Program:** 100% free access for individuals (aged 16+) to foundational defensive security learning pathways and entry-level labs. |
+| **[AttackIQ Academy](https://www.attackiq.com/)** | Security validation and adversary-emulation training ecosystem focused on MITRE ATT&CK, Purple Teaming, and Breach & Attack Simulation. | **Free ($0)** (100% free community initiative sponsored by AttackIQ) | **Free Forever:** Unlimited access to all on-demand courses, hands-on lab environments, credentials, digital badges, and (ISC)² CPE credits. |
+| **[Hack The Box Enterprise](https://www.hackthebox.com/business)** | Enterprise cybersecurity training and skills-development platform providing guided learning, dedicated labs, realistic environments, and team management. | Starting at $250/seat/month ($2,500/seat/year billed annually, Build Tier) | **14-day Free Trial:** Up to 5 seats with access to Professional Labs, team management, and executive reporting features. |
+| **[Hack The Box Academy for Business](https://academy.hackthebox.com/academy-for-business)** | Enterprise cybersecurity upskilling platform combining guided learning paths, interactive content, dedicated labs, and corporate training management. | Starting at $250/user/month ($2,500/user/year, Build Tier; individual modules unlockable via Cubes starting from $8/bundle) | **14-day Free Business Trial;** Individual free tier includes permanent access to Tier 0 foundational modules and guided materials. |
+| **[TryHackMe Business](https://tryhackme.com/business/landing/overview)** | Enterprise hands-on cybersecurity training platform offering SOC simulations, threat-hunting exercises, tabletop exercises, and live-breach simulations. | Starting at $99/seat/month ($1,188/seat/year, min 5 seats; EDU licensing from $25/month) | **14-day Free Business Trial;** Individual Free tier includes 100+ free introductory rooms and 1 hour/day of browser-based AttackBox compute. |
+| **[Blue Team Labs Online](https://blueteamlabs.online/)** | Hands-on defensive cybersecurity training platform focused on blue-team challenges, investigations, digital forensics, and incident response. | Starting at £15/month (~$19/month) or £144/year (~$185/year) for PRO tier (also offers 3-month at £40.50 and 6-month at £76.50) | **Free Forever Plan:** Limited to 10 hours of lab time per month, access to 15 active investigation labs, and standard downloadable challenges. |
+| **[SimSpace](https://www.simspace.com/)** | Enterprise cyber-range platform for realistic cyber exercises, cyber-defense training, network digital twins, and operational readiness. | Starting at ~$25,000/year (modular subscription based on range fidelity, user seats, and training scenarios) | **Interactive PoC / Sandbox Demo:** Guided test environment access with customized scenario evaluation on request (no public self-serve tier). |
+| **[CyberQ Group](https://www.cyberqgroup.com/)** | Cybersecurity training and simulation provider delivering cyber-range environments, exercises, and professional cybersecurity training. | Starting at ~$1,500–$3,000/exercise or ~$15,000/year (pay-as-you-use cloud model / tailored corporate packages) | **Guided Live Evaluation:** Single guided scenario simulation and risk-assessment demonstration upon consultation. |
 
-- **[RangeForce](https://www.rangeforce.com/)**  
-  Enterprise cyber-readiness and hands-on training platform providing technical labs, team exercises, skills development, and cyber-defense readiness capabilities. RangeForce was acquired by Cyberbit in September 2025 and is now part of Cyberbit's cyber-readiness portfolio. ([cyberbit.com](https://www.cyberbit.com/news/cyberbit-acquires-rangeforce/?utm_source=chatgpt.com))
-
-
-- **[Cyberbit](https://www.cyberbit.com/)**  
-  Enterprise cyber-range and SOC training platform focused on realistic team-based cyber-defense exercises, incident response, attack simulation, and operational readiness.
-
-
-- **[Immersive Labs](https://www.immersivelabs.com/)**  
-  Cyber workforce resilience platform providing hands-on technical exercises, cyber simulations, skills assessments, and role-based learning.
-
-
-- **[AttackIQ Academy](https://www.attackiq.com/)**  
-  Security validation and adversary-emulation training ecosystem focused on understanding and testing defensive capabilities against real-world attack techniques.
-
-
-- **[Hack The Box Enterprise](https://www.hackthebox.com/business)**  
-  Enterprise cybersecurity training and skills-development platform providing guided learning, hands-on labs, realistic environments, assessments, and team management.
-
-
-- **[Hack The Box Academy for Business](https://academy.hackthebox.com/academy-for-business)**  
-  Enterprise cybersecurity upskilling platform combining guided learning paths, interactive content, dedicated labs, and corporate training management. ([hackthebox.com](https://academy.hackthebox.com/academy-for-business?utm_source=chatgpt.com))
-
-
-- **[TryHackMe Business](https://tryhackme.com/business/landing/overview)**  
-  Enterprise hands-on cybersecurity training platform offering SOC simulations, threat-hunting exercises, tabletop exercises, live-breach simulations, and team-based learning. ([tryhackme.com](https://tryhackme.com/business/landing/overview?utm_source=chatgpt.com))
-
-
-- **[Blue Team Labs Online](https://blueteamlabs.online/)**  
-  Hands-on defensive cybersecurity training platform focused on blue-team challenges, investigations, digital forensics, incident response, threat hunting, and SOC skills.
-
-
-- **[SimSpace](https://www.simspace.com/)**  
-  Enterprise cyber-range platform for realistic cyber exercises, cyber-defense training, incident response, and organizational cyber-readiness.
-
-
-- **[CyberQ Group](https://www.cyberqgroup.com/)**  
-  Cybersecurity training and simulation provider delivering cyber-range environments, exercises, and professional cybersecurity training.
 Recommended Open-Source Combinations
 
 Open-Source Cyber Range
