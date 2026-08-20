@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Accent Neon Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#7000ff" />
+    </linearGradient>
+
+    <linearGradient id="redOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0844" />
+      <stop offset="100%" stop-color="#ffb199" />
+    </linearGradient>
+
+    <linearGradient id="gridGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#7000ff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Scanning Radar Animation Clip -->
+    <linearGradient id="scanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.02); }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes scanLineMove {
+        0% { transform: translateY(0px); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translateY(380px); opacity: 0; }
+      }
+      @keyframes nodeBlink {
+        0%, 100% { opacity: 0.3; r: 3; }
+        50% { opacity: 1; r: 5; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .scan-line {
+        animation: scanLineMove 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .radar-arm {
+        transform-origin: 1040px 190px;
+        animation: radarSweep 6s linear infinite;
+      }
+      .node-1 { animation: nodeBlink 2.5s ease-in-out infinite; }
+      .node-2 { animation: nodeBlink 3.2s ease-in-out infinite 0.8s; }
+      .node-3 { animation: nodeBlink 2.8s ease-in-out infinite 1.5s; }
+      .float-badge { animation: floatSlow 4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGradient)" />
+  <rect width="1200" height="380" rx="16" fill="none" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Perspective Grid Pattern -->
+  <g opacity="0.35">
+    <!-- Horizontal Grid lines -->
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+    <line x1="0" y1="110" x2="1200" y2="110" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+    <line x1="0" y1="170" x2="1200" y2="170" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+    <line x1="0" y1="230" x2="1200" y2="230" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+    <line x1="0" y1="290" x2="1200" y2="290" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+    <line x1="0" y1="340" x2="1200" y2="340" stroke="#00f2fe" stroke-width="0.5" stroke-dasharray="4,4" />
+
+    <!-- Vertical Grid lines -->
+    <line x1="100" y1="0" x2="100" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="250" y1="0" x2="250" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="400" y1="0" x2="400" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="550" y1="0" x2="550" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="700" y1="0" x2="700" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="850" y1="0" x2="850" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="1000" y1="0" x2="1000" y2="380" stroke="#334155" stroke-width="0.75" />
+    <line x1="1150" y1="0" x2="1150" y2="380" stroke="#334155" stroke-width="0.75" />
+  </g>
+
+  <!-- Ambient Glow Spheres -->
+  <circle cx="200" cy="190" r="180" fill="#00f2fe" opacity="0.06" filter="url(#glow)" />
+  <circle cx="650" cy="190" r="160" fill="#7000ff" opacity="0.08" filter="url(#glow)" />
+  <circle cx="1040" cy="190" r="120" fill="#ff0844" opacity="0.06" filter="url(#glow)" />
+
+  <!-- Dynamic Laser Scan Line -->
+  <rect class="scan-line" x="0" y="0" width="1200" height="2" fill="url(#scanGradient)" filter="url(#softGlow)" />
+
+  <!-- Cyber Radar & Target Matrix (Right Side Graphic) -->
+  <g transform="translate(0, 0)">
+    <!-- Radar Rings -->
+    <circle cx="1040" cy="190" r="110" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="1040" cy="190" r="80" fill="none" stroke="#00f2fe" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3,3" />
+    <circle cx="1040" cy="190" r="50" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="1040" cy="190" r="20" fill="none" stroke="#7000ff" stroke-opacity="0.5" stroke-width="1" />
+    
+    <!-- Crosshairs -->
+    <line x1="910" y1="190" x2="1170" y2="190" stroke="#00f2fe" stroke-opacity="0.25" stroke-width="1" />
+    <line x1="1040" y1="60" x2="1040" y2="320" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.25" />
+
+    <!-- Sweeping Radar Sector -->
+    <g class="radar-arm">
+      <line x1="1040" y1="190" x2="1145" y2="190" stroke="#00f2fe" stroke-width="2" filter="url(#softGlow)" />
+      <polygon points="1040,190 1145,160 1145,190" fill="#00f2fe" opacity="0.15" />
+    </g>
+
+    <!-- Radar Target Nodes -->
+    <circle class="node-1" cx="1010" cy="145" r="4" fill="#00f2fe" filter="url(#glow)" />
+    <circle class="node-2" cx="1085" cy="165" r="3.5" fill="#ff0844" filter="url(#glow)" />
+    <circle class="node-3" cx="1055" cy="235" r="4" fill="#38bdf8" filter="url(#glow)" />
+    <circle class="node-1" cx="980" cy="210" r="3" fill="#a855f7" filter="url(#glow)" />
+  </g>
+
+  <!-- Constellation Nodes & Mesh Connections -->
+  <g stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1">
+    <line x1="120" y1="80" x2="230" y2="120" />
+    <line x1="230" y1="120" x2="310" y2="70" />
+    <line x1="230" y1="120" x2="190" y2="210" />
+    <line x1="190" y1="210" x2="130" y2="290" />
+    <line x1="190" y1="210" x2="280" y2="270" />
+    <line x1="280" y1="270" x2="380" y2="310" />
+  </g>
+
+  <g fill="#00f2fe">
+    <circle class="node-1" cx="120" cy="80" r="3" />
+    <circle class="node-2" cx="230" cy="120" r="4" filter="url(#softGlow)" />
+    <circle class="node-3" cx="310" cy="70" r="3" />
+    <circle class="node-1" cx="190" cy="210" r="3.5" />
+    <circle class="node-2" cx="130" cy="290" r="3" />
+    <circle class="node-3" cx="280" cy="270" r="4" filter="url(#softGlow)" />
+    <circle class="node-1" cx="380" cy="310" r="3" />
+  </g>
+
+  <!-- Header Badge / System Tag -->
+  <g class="float-badge" transform="translate(80, 50)">
+    <rect x="0" y="0" width="280" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="14" cy="14" r="5" fill="#22c55e" filter="url(#softGlow)" />
+    <text x="28" y="18" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1">CURATED CYBER RANGE ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Typography Title -->
+  <text x="80" y="145" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1">
+    Awesome <tspan fill="url(#cyanPurple)">Cyber Range</tspan>
+  </text>
+  <text x="80" y="195" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1">
+    Platform <tspan fill="#38bdf8" font-size="32" font-weight="500">Hub</tspan>
+  </text>
+
+  <!-- Subtitle / Mission Statement -->
+  <text x="80" y="240" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">
+    The Definitive Directory of SaaS Platforms, Open-Source Ranges, SOC Simulators,
+  </text>
+  <text x="80" y="265" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">
+    Adversary Emulation Engines, Blue/Red Team Exercises &amp; Cyber Readiness Labs.
+  </text>
+
+  <!-- Feature Pills / Badges -->
+  <g transform="translate(80, 295)">
+    <!-- Pill 1: Red Team / Attack -->
+    <rect x="0" y="0" width="135" height="30" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+    <text x="12" y="19" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚔️ Red/Blue Team</text>
+
+    <!-- Pill 2: SOC Sim -->
+    <rect x="145" y="0" width="145" height="30" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="157" y="19" fill="#a7f3d0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ SOC Simulation</text>
+
+    <!-- Pill 3: CTF & Labs -->
+    <rect x="300" y="0" width="150" height="30" rx="8" fill="#4c1d95" stroke="#a855f7" stroke-width="1" />
+    <text x="312" y="19" fill="#e9d5ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🚩 CTF &amp; Lab Ranges</text>
+
+    <!-- Pill 4: Emulation -->
+    <rect x="460" y="0" width="185" height="30" rx="8" fill="#450a0a" stroke="#ef4444" stroke-width="1" />
+    <text x="472" y="19" fill="#fecaca" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🎯 Adversary Emulation</text>
+
+    <!-- Pill 5: Open Source -->
+    <rect x="655" y="0" width="145" height="30" rx="8" fill="#082f49" stroke="#0ea5e9" stroke-width="1" />
+    <text x="667" y="19" fill="#bae6fd" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ Open Source Stack</text>
+  </g>
+</svg>

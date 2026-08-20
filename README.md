@@ -1,727 +1,281 @@
-# Awesome-Cyber-Range-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cyber Range Platform Banner" width="100%">
+</p>
 
-Markdown
-## Top Cyber Range Platforms Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Cyber-Range-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cyber-Range-Platform?style=for-the-badge&color=gold" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Cyber-Range-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cyber-Range-Platform?style=for-the-badge&color=blue" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Cyber-Range-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+# 🎯 Awesome Cyber Range Platform Ecosystem
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
-*Focused on Cybersecurity Training, Cyber Ranges, SOC Simulation, Red/Blue Team Exercises, Attack Simulation & Cyber Readiness*  
-**Last updated: August 2026**
+> **A curated directory of top SaaS/hosted platforms, open-source cyber ranges, SOC simulators, red/blue team exercise environments, adversary emulation frameworks, and hands-on cyber readiness labs.**
 
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-brightgreen?style=flat-square)](#)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square)](#-how-to-contribute)
+[![Awesome](https://img.shields.io/badge/Awesome-Cyber%20Range-blueviolet?style=flat-square)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Cyber Range Platforms**. These platforms provide realistic, hands-on environments for cybersecurity education, workforce development, SOC training, incident response, red-team/blue-team exercises, adversary emulation, cyber-defense exercises, CTFs, and organizational cyber-readiness assessments.
+---
 
+## 📌 Overview
 
-**Examples** include RangeForce, Immersive Labs, Cyberbit, AttackIQ Academy, Hack The Box Enterprise, TryHackMe Business, Blue Team Labs Online, SimSpace, CyberQ Group, and SafeBreach Academy.
+This repository is the definitive reference guide for **Cyber Range Platforms**, **Adversary Emulation Suites**, and **SOC Training Labs**. Modern cyber ranges provide high-fidelity, hands-on virtual environments for cybersecurity education, workforce development, incident response drills, threat hunting, CTFs, purple-teaming exercises, and automated security validation.
 
+Whether you need an enterprise-grade hosted platform or want to construct an open-source, self-hosted, composable range using virtualization, infrastructure-as-code, and SIEM tooling, this curated ecosystem covers every component.
 
-Modern cyber ranges increasingly combine **virtualized infrastructure, cloud environments, vulnerable systems, SIEM/SOC tooling, attack simulation, threat emulation, MITRE ATT&CK mapping, automated scoring, instructor management, multiplayer exercises, purple teaming, and real-world enterprise technologies**.
+---
 
+## 📑 Table of Contents
 
-**Open-source emphasis**: This repository is heavily expanded with open-source projects that can be used to construct self-hosted cyber ranges — including complete cyber-range platforms, orchestration engines, training environments, CTF platforms, vulnerable infrastructure, attack-defense labs, SOC simulation environments, adversary emulation frameworks, scoring systems, and infrastructure-as-code components.
+- [🏢 SaaS & Hosted Cyber Range Platforms](#-saas--hosted-cyber-range-platforms)
+- [⚡ Open-Source Cyber Range & Simulation Projects](#-open-source-cyber-range--simulation-projects)
+- [🧩 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
+- [🧱 Cyber Range Building Blocks](#-cyber-range-building-blocks)
+- [📚 Essential Cyber Range Concepts & Terminology](#-essential-cyber-range-concepts--terminology)
+- [⭐ Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
 
+---
 
-The open-source ecosystem is particularly interesting because a cyber range is fundamentally a **composable infrastructure problem**. A complete platform can often be assembled from virtualization/cloud infrastructure, orchestration, vulnerable machines, attack tooling, defensive tooling, exercise content, and scoring components.
+## 🏢 SaaS & Hosted Cyber Range Platforms
 
+The following enterprise and SaaS cyber range solutions provide managed cloud infrastructure, live-fire simulations, automated scoring, and curated workforce learning paths. *Ranked in descending order of company size (valuation / funding / revenue).*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or GitHub repositories.
+| 🏷️ Platform | 📝 Description & Focus | 💼 Company Size (Valuation / Revenue) | 💰 Starting Pricing | 🎁 Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Hack The Box Enterprise](https://www.hackthebox.com/business)** | Enterprise cybersecurity training and skills-development platform providing guided learning, dedicated labs, realistic environments, and team management. | **~$500M+ Valuation** ($73.7M funding raised; Carlyle-backed) | Starting at **$250/seat/month** ($2,500/seat/year billed annually, Build Tier) | **14-day Free Trial:** Up to 5 seats with access to Professional Labs, team management, and executive reporting features. |
+| **[Hack The Box Academy for Business](https://academy.hackthebox.com/academy-for-business)** | Enterprise cybersecurity upskilling platform combining guided learning paths, interactive content, dedicated labs, and corporate training management. | **~$500M+ Valuation** ($73.7M funding raised; Carlyle-backed) | Starting at **$250/user/month** ($2,500/user/year, Build Tier; individual modules unlockable via Cubes starting from $8/bundle) | **14-day Free Business Trial;** Individual free tier includes permanent access to Tier 0 foundational modules and guided materials. |
+| **[Immersive Labs](https://www.immersivelabs.com/)** | Cyber workforce resilience platform providing hands-on technical exercises, threat simulations, and role-based learning paths. | **~$300M+ Valuation** ($189M total funding raised) | Starting at **~$6,000–$10,000/year** (Core tier for small teams, min 5 users) | **Cyber Million Program:** 100% free access for individuals (aged 16+) to foundational defensive security learning pathways and entry-level labs. |
+| **[Cyberbit](https://www.cyberbit.com/)** | Enterprise cyber-range and SOC training platform focused on realistic team-based cyber-defense exercises, incident response, and operational readiness. | **~$250M+ Valuation** (~$112M est. revenue, $122M+ total funding) | Starting at **~$7,200/year** (~$1,200–$1,500/user/year, typically 5-seat minimum) | **Cyberbit Free Edition:** Access to select foundational solo hands-on labs and theory modules; 1 live team exercise via PoC evaluation. |
+| **[AttackIQ Academy](https://www.attackiq.com/)** | Security validation and adversary-emulation training ecosystem focused on MITRE ATT&CK, Purple Teaming, and Breach & Attack Simulation. | **~$150M–$200M Valuation** ($79M total funding raised) | **Free ($0)** (100% free community initiative sponsored by AttackIQ) | **Free Forever:** Unlimited access to all on-demand courses, hands-on lab environments, credentials, digital badges, and (ISC)² CPE credits. |
+| **[SimSpace](https://www.simspace.com/)** | Enterprise cyber-range platform for realistic cyber exercises, cyber-defense training, network digital twins, and operational readiness. | **~$100M+ Valuation** ($45M total funding raised) | Starting at **~$25,000/year** (modular subscription based on range fidelity, user seats, and training scenarios) | **Interactive PoC / Sandbox Demo:** Guided test environment access with customized scenario evaluation on request (no public self-serve tier). |
+| **[TryHackMe Business](https://tryhackme.com/business/landing/overview)** | Enterprise hands-on cybersecurity training platform offering SOC simulations, threat-hunting exercises, tabletop exercises, and live-breach simulations. | **~$80M–$100M Valuation** (~$20M ARR; profitable & bootstrapped) | Starting at **$99/seat/month** ($1,188/seat/year, min 5 seats; EDU licensing from $25/month) | **14-day Free Business Trial;** Individual Free tier includes 100+ free introductory rooms and 1 hour/day of browser-based AttackBox compute. |
+| **[RangeForce](https://www.rangeforce.com/)** | Enterprise cyber-readiness and hands-on training platform providing technical labs, team exercises, and cyber-defense readiness capabilities (part of Cyberbit). | **~$40M–$50M Valuation** (Acquired by Cyberbit in 2025; $18M prior funding) | Starting at **~$11,000–$12,000/year** (enterprise contract benchmark; private offer on AWS Marketplace) | **Free Solo Labs:** Access to select introductory defensive modules and hands-on skill labs at no cost; 6-month RSAC member preview. |
+| **[CyberQ Group](https://www.cyberqgroup.com/)** | Cybersecurity training and simulation provider delivering cyber-range environments, exercises, and professional cybersecurity training. | **~$15M–$20M Valuation** (~$5M–$10M annual revenue) | Starting at **~$1,500–$3,000/exercise** or **~$15,000/year** (pay-as-you-use cloud model / tailored corporate packages) | **Guided Live Evaluation:** Single guided scenario simulation and risk-assessment demonstration upon consultation. |
+| **[Blue Team Labs Online](https://blueteamlabs.online/)** | Hands-on defensive cybersecurity training platform focused on blue-team challenges, investigations, digital forensics, and incident response. | **~$10M–$15M Valuation** (~$3M–$5M annual revenue) | Starting at **£15/month** (~$19/month) or **£144/year** (~$185/year) for PRO tier | **Free Forever Plan:** Limited to 10 hours of lab time per month, access to 15 active investigation labs, and standard downloadable challenges. |
 
+---
 
-## Table of Contents
+## ⚡ Open-Source Cyber Range & Simulation Projects
 
+Top open-source projects for building self-hosted cyber ranges, vulnerable testbeds, adversary emulation pipelines, and SOC analysis stacks. *Sorted in descending order of GitHub star count.*
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-- [Open-Source Cyber Range Stack](#open-source-cyber-range-stack)
-- [Cyber Range Building Blocks](#cyber-range-building-blocks)
-- [Important Cyber Range Concepts](#important-cyber-range-concepts)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+| 🛠️ Project & Repository | ⭐ Stars | 📂 Category | 📖 Description |
+| :--- | :---: | :--- | :--- |
+| **[Metasploit Framework](https://github.com/rapid7/metasploit-framework)** | [![GitHub stars](https://img.shields.io/github/stars/rapid7/metasploit-framework?style=social&color=white)](https://github.com/rapid7/metasploit-framework/stargazers) | ⚔️ Attack / Exploitation | World's most used penetration testing and exploit development framework. |
+| **[Vulhub](https://github.com/vulhub/vulhub)** | [![GitHub stars](https://img.shields.io/github/stars/vulhub/vulhub?style=social&color=white)](https://github.com/vulhub/vulhub/stargazers) | 🎯 Vulnerable Labs | Pre-built vulnerable Docker environments for hands-on vulnerability testing and exploitation. |
+| **[Wazuh](https://github.com/wazuh/wazuh)** | [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers) | 🛡️ SOC / SIEM / XDR | Unified open-source XDR and SIEM protection platform for endpoints and cloud workloads. |
+| **[Impacket](https://github.com/fortra/impacket)** | [![GitHub stars](https://img.shields.io/github/stars/fortra/impacket?style=social&color=white)](https://github.com/fortra/impacket/stargazers) | ⚔️ Network Tooling | Collection of Python classes for working with low-level network protocols and AD attacks. |
+| **[OWASP Juice Shop](https://github.com/juice-shop/juice-shop)** | [![GitHub stars](https://img.shields.io/github/stars/juice-shop/juice-shop?style=social&color=white)](https://github.com/juice-shop/juice-shop/stargazers) | 🎯 Web Vulnerability Lab | Modern, sophisticated insecure web application designed for security training and CTFs. |
+| **[DVWA](https://github.com/digininja/DVWA)** | [![GitHub stars](https://img.shields.io/github/stars/digininja/DVWA?style=social&color=white)](https://github.com/digininja/DVWA/stargazers) | 🎯 Web Vulnerability Lab | Damn Vulnerable Web Application (DVWA) for practicing web security fundamentals. |
+| **[Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)** | [![GitHub stars](https://img.shields.io/github/stars/redcanaryco/atomic-red-team?style=social&color=white)](https://github.com/redcanaryco/atomic-red-team/stargazers) | 🎯 Adversary Emulation | Library of simple, portable, open-source detection tests mapped to MITRE ATT&CK. |
+| **[Sliver](https://github.com/BishopFox/sliver)** | [![GitHub stars](https://img.shields.io/github/stars/BishopFox/sliver?style=social&color=white)](https://github.com/BishopFox/sliver/stargazers) | ⚔️ C2 & Red Team | Dynamic, cross-platform adversary emulation and command-and-control framework by Bishop Fox. |
+| **[Sigma](https://github.com/SigmaHQ/sigma)** | [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers) | 🛡️ Detection Engineering | Generic, open signature format for SIEM detection rules across log environments. |
+| **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** | [![GitHub stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers) | 🧠 Threat Intelligence | Open Cyber Threat Intelligence platform to structure, store, and correlate threat data. |
+| **[YARA](https://github.com/VirusTotal/yara)** | [![GitHub stars](https://img.shields.io/github/stars/VirusTotal/yara?style=social&color=white)](https://github.com/VirusTotal/yara/stargazers) | 🔍 Malware Detection | Pattern-matching tool designed to help malware researchers identify and classify samples. |
+| **[T-Pot](https://github.com/telekom-security/tpotce)** | [![GitHub stars](https://img.shields.io/github/stars/telekom-security/tpotce?style=social&color=white)](https://github.com/telekom-security/tpotce/stargazers) | 🍯 Honeypot Range | Multi-honeypot platform combining Dockerized honeypots with centralized ELK telemetry. |
+| **[WebGoat](https://github.com/WebGoat/WebGoat)** | [![GitHub stars](https://img.shields.io/github/stars/WebGoat/WebGoat?style=social&color=white)](https://github.com/WebGoat/WebGoat/stargazers) | 🎯 Web Vulnerability Lab | Deliberately insecure application by OWASP to teach common Java application vulnerabilities. |
+| **[GOAD](https://github.com/Orange-Cyberdefense/GOAD)** | [![GitHub stars](https://img.shields.io/github/stars/Orange-Cyberdefense/GOAD?style=social&color=white)](https://github.com/Orange-Cyberdefense/GOAD/stargazers) | 🏢 Active Directory Range | Game of Active Directory: vulnerable AD lab covering multiple domains, forests, and trust paths. |
+| **[Zeek](https://github.com/zeek/zeek)** | [![GitHub stars](https://img.shields.io/github/stars/zeek/zeek?style=social&color=white)](https://github.com/zeek/zeek/stargazers) | 🛡️ Network Telemetry | Powerful network analysis framework and network security monitoring engine. |
+| **[Arkime](https://github.com/arkime/arkime)** | [![GitHub stars](https://img.shields.io/github/stars/arkime/arkime?style=social&color=white)](https://github.com/arkime/arkime/stargazers) | 🛡️ Packet Capture & Forensics | Large-scale, full-packet capture, indexing, and PCAP search & visual analysis system. |
+| **[MITRE Caldera](https://github.com/mitre/caldera)** | [![GitHub stars](https://img.shields.io/github/stars/mitre/caldera?style=social&color=white)](https://github.com/mitre/caldera/stargazers) | 🎯 Adversary Emulation | Automated adversary emulation platform built on the MITRE ATT&CK framework. |
+| **[Infection Monkey](https://github.com/guardicore/monkey)** | [![GitHub stars](https://img.shields.io/github/stars/guardicore/monkey?style=social&color=white)](https://github.com/guardicore/monkey/stargazers) | 🎯 Adversary Emulation | Open-source breach and attack simulation platform for testing network resilience and Zero Trust. |
+| **[CTFd](https://github.com/CTFd/CTFd)** | [![GitHub stars](https://img.shields.io/github/stars/CTFd/CTFd?style=social&color=white)](https://github.com/CTFd/CTFd/stargazers) | 🚩 CTF Platform | Leading open-source Capture The Flag framework supporting scoring, plugins, and challenges. |
+| **[Suricata](https://github.com/OISF/suricata)** | [![GitHub stars](https://img.shields.io/github/stars/OISF/suricata?style=social&color=white)](https://github.com/OISF/suricata/stargazers) | 🛡️ IDS / IPS | High-performance, open-source network threat detection, IDS, IPS, and PCAP analysis engine. |
+| **[FBCTF](https://github.com/facebookarchive/fbctf)** | [![GitHub stars](https://img.shields.io/github/stars/facebookarchive/fbctf?style=social&color=white)](https://github.com/facebookarchive/fbctf/stargazers) | 🚩 CTF Platform | Gamified Capture The Flag platform designed to host engaging, map-based cyber competitions. |
+| **[MISP](https://github.com/MISP/MISP)** | [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers) | 🧠 Threat Intelligence | Malware Information Sharing Platform & open threat intelligence sharing standard. |
+| **[DetectionLab](https://github.com/clong/DetectionLab)** | [![GitHub stars](https://img.shields.io/github/stars/clong/DetectionLab?style=social&color=white)](https://github.com/clong/DetectionLab/stargazers) | 🏢 SOC Detection Lab | Automated multi-OS Active Directory lab pre-configured with Splunk, Fleet, osquery, and Sysmon. |
+| **[Mythic](https://github.com/its-a-feature/Mythic)** | [![GitHub stars](https://img.shields.io/github/stars/its-a-feature/Mythic?style=social&color=white)](https://github.com/its-a-feature/Mythic/stargazers) | ⚔️ C2 & Red Team | Collaborative, cross-platform red team and adversary simulation C2 platform. |
+| **[Velociraptor](https://github.com/Velocidex/velociraptor)** | [![GitHub stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers) | 🔍 Digital Forensics & IR | Advanced digital forensics, endpoint hunting, and live incident response platform. |
+| **[TheHive](https://github.com/TheHive-Project/TheHive)** | [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers) | 🛡️ Incident Response (SIRP) | Scalable, open-source security incident response platform for SOC analysts and incident responders. |
+| **[CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat)** | [![GitHub stars](https://img.shields.io/github/stars/RhinoSecurityLabs/cloudgoat?style=social&color=white)](https://github.com/RhinoSecurityLabs/cloudgoat/stargazers) | ☁️ Cloud Security Range | Vulnerable-by-design AWS deployment tool by Rhino Security Labs for cloud penetration testing. |
+| **[Snort 3](https://github.com/snort3/snort3)** | [![GitHub stars](https://img.shields.io/github/stars/snort3/snort3?style=social&color=white)](https://github.com/snort3/snort3/stargazers) | 🛡️ IDS / IPS | Flexible, multithreaded network intrusion prevention and detection system by Cisco. |
+| **[BloodHound](https://github.com/SpecterOps/BloodHound)** | [![GitHub stars](https://img.shields.io/github/stars/SpecterOps/BloodHound?style=social&color=white)](https://github.com/SpecterOps/BloodHound/stargazers) | ⚔️ Attack Path Graph | Graph-theory-based tool for revealing hidden relationships and attack paths in Active Directory. |
+| **[APTSimulator](https://github.com/NextronSystems/APTSimulator)** | [![GitHub stars](https://img.shields.io/github/stars/NextronSystems/APTSimulator?style=social&color=white)](https://github.com/NextronSystems/APTSimulator/stargazers) | 🎯 Adversary Emulation | Windows batch toolset simulating adversary actions and forensic traces for SOC testing. |
+| **[Splunk Attack Range](https://github.com/splunk/attack_range)** | [![GitHub stars](https://img.shields.io/github/stars/splunk/attack_range?style=social&color=white)](https://github.com/splunk/attack_range/stargazers) | 🏢 Attack Range Orchestrator | Infrastructure-as-code automation to build instrumented attack environments with telemetry. |
+| **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)** | [![GitHub stars](https://img.shields.io/github/stars/DataDog/stratus-red-team?style=social&color=white)](https://github.com/DataDog/stratus-red-team/stargazers) | ☁️ Cloud Emulation | Granular, actionable adversary emulation tool for AWS, Azure, and GCP cloud environments. |
+| **[BadBlood](https://github.com/davidprowe/BadBlood)** | [![GitHub stars](https://img.shields.io/github/stars/davidprowe/BadBlood?style=social&color=white)](https://github.com/davidprowe/BadBlood/stargazers) | 🏢 Active Directory Generator | Fills a Microsoft Active Directory domain with thousands of users, groups, and ACL vulnerabilities. |
+| **[NodeGoat](https://github.com/OWASP/NodeGoat)** | [![GitHub stars](https://img.shields.io/github/stars/OWASP/NodeGoat?style=social&color=white)](https://github.com/OWASP/NodeGoat/stargazers) | 🎯 Web Vulnerability Lab | OWASP educational project demonstrating Top 10 security risks in Node.js applications. |
+| **[OpenBAS](https://github.com/OpenBAS-Platform/openbas)** | [![GitHub stars](https://img.shields.io/github/stars/OpenBAS-Platform/openbas?style=social&color=white)](https://github.com/OpenBAS-Platform/openbas/stargazers) | 🎯 Breach & Attack Simulation | Open-source Breach and Attack Simulation platform for security validation and testing. |
+| **[VAmPI](https://github.com/erev0s/VAmPI)** | [![GitHub stars](https://img.shields.io/github/stars/erev0s/VAmPI?style=social&color=white)](https://github.com/erev0s/VAmPI/stargazers) | 🎯 API Vulnerability Lab | Deliberately vulnerable REST API demonstrating OWASP Top 10 API security flaws. |
+| **[RootTheBox](https://github.com/moloch--/RootTheBox)** | [![GitHub stars](https://img.shields.io/github/stars/moloch--/RootTheBox?style=social&color=white)](https://github.com/moloch--/RootTheBox/stargazers) | 🚩 CTF / Scoring | Real-time scoring CTF and King of the Hill game platform with banking, flags, and bot bots. |
+| **[PurpleSharp](https://github.com/mvelazc0/PurpleSharp)** | [![GitHub stars](https://img.shields.io/github/stars/mvelazc0/PurpleSharp?style=social&color=white)](https://github.com/mvelazc0/PurpleSharp/stargazers) | 🎯 Adversary Emulation | C# adversary simulation tool executing MITRE ATT&CK techniques across Active Directory. |
+| **[Mellivora](https://github.com/Nakiami/mellivora)** | [![GitHub stars](https://img.shields.io/github/stars/Nakiami/mellivora?style=social&color=white)](https://github.com/Nakiami/mellivora/stargazers) | 🚩 CTF Platform | Lightweight CTF engine written in PHP for managing challenges, teams, and submissions. |
+| **[SecGen](https://github.com/SecGen/SecGen)** | [![GitHub stars](https://img.shields.io/github/stars/SecGen/SecGen?style=social&color=white)](https://github.com/SecGen/SecGen/stargazers) | 🎯 Lab Generator | Creates randomized, dynamically generated vulnerable virtual machine scenarios. |
+| **[picoCTF](https://github.com/picoCTF/picoCTF)** | [![GitHub stars](https://img.shields.io/github/stars/picoCTF/picoCTF?style=social&color=white)](https://github.com/picoCTF/picoCTF/stargazers) | 🚩 CTF Platform | The original open-source platform powering Carnegie Mellon University's picoCTF competition. |
+| **[CyberRangeCZ](https://github.com/cyberrangecz/frontend)** | [![GitHub stars](https://img.shields.io/github/stars/cyberrangecz/frontend?style=social&color=white)](https://github.com/cyberrangecz/frontend/stargazers) | 🚀 Cyber Range Orchestrator | Complete open-source cloud cyber range platform for cybersecurity education and exercises. |
+| **[AWS Cyber Range](https://github.com/aws-samples/aws-cyber-range)** | [![GitHub stars](https://img.shields.io/github/stars/aws-samples/aws-cyber-range?style=social&color=white)](https://github.com/aws-samples/aws-cyber-range/stargazers) | ☁️ Cloud Range Blueprint | Automated blueprint by AWS samples for deploying scalable training environments on AWS. |
 
+---
 
-## SaaS/Hosted Platforms
+## 🧩 Recommended Open-Source Stacks
 
-| Platform | Description | Pricing | Free Tier / Trial Limits |
-| :--- | :--- | :--- | :--- |
-| **[RangeForce](https://www.rangeforce.com/)** | Enterprise cyber-readiness and hands-on training platform providing technical labs, team exercises, and cyber-defense readiness capabilities (part of Cyberbit). | Starting at ~$11,000–$12,000/year (enterprise contract benchmark; private offer on AWS Marketplace) | **Free Solo Labs:** Access to select introductory defensive modules and hands-on skill labs at no cost; 6-month RSAC member preview. |
-| **[Cyberbit](https://www.cyberbit.com/)** | Enterprise cyber-range and SOC training platform focused on realistic team-based cyber-defense exercises, incident response, and operational readiness. | Starting at ~$7,200/year (~$1,200–$1,500/user/year, typically 5-seat minimum) | **Cyberbit Free Edition:** Access to select foundational solo hands-on labs and theory modules; 1 live team exercise via PoC evaluation. |
-| **[Immersive Labs](https://www.immersivelabs.com/)** | Cyber workforce resilience platform providing hands-on technical exercises, threat simulations, and role-based learning paths. | Starting at ~$6,000–$10,000/year (Core tier for small teams, min 5 users) | **Cyber Million Program:** 100% free access for individuals (aged 16+) to foundational defensive security learning pathways and entry-level labs. |
-| **[AttackIQ Academy](https://www.attackiq.com/)** | Security validation and adversary-emulation training ecosystem focused on MITRE ATT&CK, Purple Teaming, and Breach & Attack Simulation. | **Free ($0)** (100% free community initiative sponsored by AttackIQ) | **Free Forever:** Unlimited access to all on-demand courses, hands-on lab environments, credentials, digital badges, and (ISC)² CPE credits. |
-| **[Hack The Box Enterprise](https://www.hackthebox.com/business)** | Enterprise cybersecurity training and skills-development platform providing guided learning, dedicated labs, realistic environments, and team management. | Starting at $250/seat/month ($2,500/seat/year billed annually, Build Tier) | **14-day Free Trial:** Up to 5 seats with access to Professional Labs, team management, and executive reporting features. |
-| **[Hack The Box Academy for Business](https://academy.hackthebox.com/academy-for-business)** | Enterprise cybersecurity upskilling platform combining guided learning paths, interactive content, dedicated labs, and corporate training management. | Starting at $250/user/month ($2,500/user/year, Build Tier; individual modules unlockable via Cubes starting from $8/bundle) | **14-day Free Business Trial;** Individual free tier includes permanent access to Tier 0 foundational modules and guided materials. |
-| **[TryHackMe Business](https://tryhackme.com/business/landing/overview)** | Enterprise hands-on cybersecurity training platform offering SOC simulations, threat-hunting exercises, tabletop exercises, and live-breach simulations. | Starting at $99/seat/month ($1,188/seat/year, min 5 seats; EDU licensing from $25/month) | **14-day Free Business Trial;** Individual Free tier includes 100+ free introductory rooms and 1 hour/day of browser-based AttackBox compute. |
-| **[Blue Team Labs Online](https://blueteamlabs.online/)** | Hands-on defensive cybersecurity training platform focused on blue-team challenges, investigations, digital forensics, and incident response. | Starting at £15/month (~$19/month) or £144/year (~$185/year) for PRO tier (also offers 3-month at £40.50 and 6-month at £76.50) | **Free Forever Plan:** Limited to 10 hours of lab time per month, access to 15 active investigation labs, and standard downloadable challenges. |
-| **[SimSpace](https://www.simspace.com/)** | Enterprise cyber-range platform for realistic cyber exercises, cyber-defense training, network digital twins, and operational readiness. | Starting at ~$25,000/year (modular subscription based on range fidelity, user seats, and training scenarios) | **Interactive PoC / Sandbox Demo:** Guided test environment access with customized scenario evaluation on request (no public self-serve tier). |
-| **[CyberQ Group](https://www.cyberqgroup.com/)** | Cybersecurity training and simulation provider delivering cyber-range environments, exercises, and professional cybersecurity training. | Starting at ~$1,500–$3,000/exercise or ~$15,000/year (pay-as-you-use cloud model / tailored corporate packages) | **Guided Live Evaluation:** Single guided scenario simulation and risk-assessment demonstration upon consultation. |
+Assemble powerful, customized cyber training ranges by combining modular open-source components:
 
-Recommended Open-Source Combinations
+### 🌐 1. General Open-Source Cyber Range
+```
+CyberRangeCZ + OpenStack + Terraform + Ansible + Kali Linux + Vulnerable VMs
+```
+*Provides dynamic sandbox provisioning, cloud virtualization, automated configuration, and repeatable exercise environments.*
 
-Open-Source Cyber Range
-
-CyberRangeCZ + OpenStack + Terraform + Ansible + Kali + Vulnerable VMs
-
-This provides a strong foundation for creating repeatable, isolated cyber-training environments. CyberRangeCZ specifically supports dynamic sandbox provisioning and OpenStack/AWS infrastructure. (github.com
-)
-
-University Cybersecurity Training Range
-
+### 🎓 2. University Cybersecurity Education Range
+```
 CyberRangeCZ + CTFd + OWASP Juice Shop + WebGoat + Moodle
+```
+*Delivers structured educational modules, self-paced vulnerability exploitation, automated challenge scoring, and LMS integration.*
 
-Use CyberRangeCZ for infrastructure, CTFd for scoring, vulnerable applications for hands-on exercises, and Moodle for curriculum management.
+### 🛡️ 3. Enterprise SOC Training & Blue-Team Range
+```
+GOAD / DetectionLab + Windows AD + Security Onion + Wazuh + Zeek + TheHive
+```
+*Recreates authentic enterprise networks with domain controllers, SIEM aggregation, network IDS telemetry, and incident response case workflows.*
 
-Enterprise SOC Training Range
+### ⚔️ 4. Red-vs-Blue & Purple Teaming Range
+```
+OpenStack / Proxmox + Caldera + Atomic Red Team + Security Onion + Wazuh + CTFd
+```
+*Generates automated MITRE ATT&CK adversary activity, allowing defensive teams to measure detection coverage and validate response SLA in real time.*
 
-CyberRangeCZ/Orion Range + Windows AD + Security Onion + Wazuh + Zeek + TheHive
-
-Create realistic enterprise networks and simulate attacks while giving defenders access to SIEM, network telemetry, endpoint data, and incident-response tooling.
-
-Red-vs-Blue Cyber Range
-
-OpenStack/Proxmox + Caldera + Atomic Red Team + Security Onion + Wazuh + CTFd
-
-Use Caldera and Atomic Red Team to generate adversary activity, then measure whether the defensive stack detects and responds to the activity.
-
-Cloud Cyber Range
-
+### ☁️ 5. Cloud Cyber Defense Range
+```
 Terraform + AWS/Azure/GCP + CloudGoat + Stratus Red Team + Wazuh + OpenSearch
+```
+*Simulates real-world cloud security misconfigurations, credential theft, IAM privilege escalation, and multi-cloud telemetry ingestion.*
+
+### 🌐 6. Web Application Security Lab
+```
+Docker + OWASP Juice Shop + WebGoat + DVWA + NodeGoat + Burp Suite + CTFd
+```
+*Focuses on web application security, API testing, SQL injection, XSS, SSRF, and secure coding verification.*
+
+### 🔍 7. Detection Engineering & Threat Hunting Range
+```
+Splunk Attack Range + Atomic Red Team + Sigma + Zeek + Suricata + Velociraptor
+```
+*Generates targeted telemetry against specific ATT&CK techniques for authoring, testing, and fine-tuning Sigma detection rules.*
+
+---
+
+## 🧱 Cyber Range Building Blocks
+
+A complete cyber range is composed of discrete infrastructure and software layers:
+
+```
+┌────────────────────────────────────────────────────────┐
+│                   EXERCISE PORTAL                      │
+│     (CTFd, RootTheBox, CyberRangeCZ Web Portal)       │
+├────────────────────────────────────────────────────────┤
+│           MEASUREMENT & SCORING ANALYTICS              │
+│       (Grafana, Prometheus, OpenSearch, Kibana)        │
+├────────────────────────────────────────────────────────┤
+│       DEFENSIVE TOOLING (BLUE TEAM / SOC STACK)        │
+│   (Wazuh, Security Onion, Zeek, Suricata, TheHive)    │
+├────────────────────────────────────────────────────────┤
+│        ADVERSARY EMULATION (RED TEAM STACK)            │
+│   (Caldera, Atomic Red Team, Sliver, Metasploit)      │
+├────────────────────────────────────────────────────────┤
+│          EXERCISE CONTENT & VULNERABLE LABS            │
+│    (GOAD, Vulhub, Juice Shop, CloudGoat, BadBlood)     │
+├────────────────────────────────────────────────────────┤
+│         RANGE ORCHESTRATION & LAB-AS-CODE              │
+│   (Terraform, Ansible, Packer, Vagrant, Kubernetes)    │
+├────────────────────────────────────────────────────────┤
+│            VIRTUALIZATION & CLOUD INFRA                │
+│    (OpenStack, Proxmox VE, KVM, AWS, Azure, GCP)      │
+└────────────────────────────────────────────────────────┘
+```
+
+### 💻 Infrastructure Layer
+- **OpenStack** — Open-source private cloud compute and network infrastructure.
+- **Proxmox VE** — Enterprise virtualization and container management platform.
+- **KVM / QEMU** — Core open-source Linux kernel virtualization.
+- **Terraform** — Declarative Infrastructure-as-Code (IaC) provisioning.
+- **Ansible** — Automated configuration management and machine provisioning.
+- **Packer** — Automated golden VM image builder.
+- **Kubernetes & Docker** — Containerized microservice labs and ephemeral challenge pods.
+
+### 🎛️ Range Orchestration Layer
+- **CyberRangeCZ** — Full-featured open-source cyber range orchestration platform.
+- **Splunk Attack Range** — Automated deployment of instrumented attack/defense lab environments.
+- **DetectionLab** — Automated lab creation with pre-built Windows AD and logging pipeline.
+- **AWS Cyber Range** — Cloud-native blueprint for rapid training environment spinning.
+
+### 🎯 Exercise Content & Target Layer
+- **GOAD (Game of Active Directory)** — Multi-domain vulnerable enterprise Windows AD lab.
+- **Vulhub** — Library of pre-built vulnerable Docker applications.
+- **OWASP Juice Shop & WebGoat** — Modern vulnerable web application testing environments.
+- **CloudGoat** — Vulnerable AWS cloud security deployment scenarios.
+- **BadBlood** — Massive Active Directory domain random vulnerability generator.
+
+### ⚔️ Attack & Adversary Emulation Layer
+- **MITRE Caldera** — Automated adversary emulation mapped to MITRE ATT&CK.
+- **Atomic Red Team** — Portable atomic tests to safely test defensive controls.
+- **Metasploit Framework** — The premier exploitation and offensive security toolkit.
+- **Sliver & Mythic** — Modern open-source command-and-control (C2) frameworks.
+- **Stratus Red Team** — Adversary emulation for cloud environments.
+
+### 🛡️ Defensive & SOC Simulation Layer
+- **Wazuh** — Unified open-source SIEM, XDR, and endpoint monitoring.
+- **Security Onion** — Complete Linux distribution for threat hunting, SOC monitoring, and log management.
+- **Zeek & Suricata** — Deep network traffic analysis, IDS/IPS, and packet telemetry.
+- **Velociraptor** — Endpoint visibility, digital forensics, and incident response hunting.
+- **TheHive** — Security incident response and collaborative investigation platform.
+
+### 📊 Scoring, CTF & Measurement Layer
+- **CTFd** — Flag submission, dynamic scoring, and CTF tournament management.
+- **RootTheBox** — Real-time gamified hacking scoreboard and King of the Hill game engine.
+- **Grafana & OpenSearch** — Performance visualization, telemetry dashboards, and participant analytics.
+
+---
+
+## 📚 Essential Cyber Range Concepts & Terminology
+
+Understanding the core concepts behind cyber ranges, simulations, and workforce readiness:
+
+| 🏷️ Concept | 📖 Definition |
+| :--- | :--- |
+| **Cyber Range** | A controlled, interactive environment where cybersecurity professionals learn, test, and practice real-world defensive and offensive skills. |
+| **Cyber Digital Twin** | A high-fidelity software model reproducing an enterprise's actual network topology, systems, firewalls, and active directory hierarchy. |
+| **Lab-as-Code (LaC)** | Defining training labs, vulnerable machines, and network topologies programmatically using declarative code. |
+| **Breach & Attack Simulation (BAS)** | Automated tools continuously simulating attacker tactics to validate whether defensive controls successfully detect and alert. |
+| **Adversary Emulation** | Executing known tactics, techniques, and procedures (TTPs) of specific threat actors (e.g., APT29) against a target environment. |
+| **Purple Teaming** | Collaborative exercises where offensive (Red) and defensive (Blue) teams work concurrently to improve detection coverage and speed. |
+| **Live-Fire Exercise** | Realistic training involving live attacks against active infrastructure to test human response and operational procedures. |
+| **Tabletop Exercise (TTX)** | Scenario-based discussions where stakeholders review roles, escalation paths, and decision-making during a simulated crisis. |
+| **SOC Simulation** | Recreating authentic security operation center alert flows, false positives, SIEM dashboards, and triage workflows. |
+| **MITRE ATT&CK Mapping** | Tagging and correlating simulated offensive techniques to the standard MITRE ATT&CK enterprise matrix. |
+| **Mean Time to Detect (MTTD)** | Average time required by security analysts or automated sensors to detect malicious activity in the range. |
+| **Mean Time to Respond (MTTR)** | Average time required to contain, investigate, and remediate a detected threat incident during an exercise. |
+| **Ephemeral Labs** | Dynamic on-demand training environments that spin up when requested and automatically tear down upon completion. |
 
-Create isolated cloud environments containing intentionally vulnerable configurations and realistic cloud attack scenarios.
+---
 
-Web Application Security Range
+## ⭐ Star History
 
-Docker + OWASP Juice Shop + WebGoat + DVWA + Burp Suite + CTFd
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cyber-Range-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cyber-Range-Platform&type=date&legend=top-left)
 
-Useful for application-security education, penetration testing, secure coding, and CTF-style exercises.
+---
 
-Detection Engineering Range
+## 🤝 How to Contribute
 
-Splunk Attack Range + Atomic Red Team + Sigma + Zeek + Suricata + Wazuh
+Contributions to expand and refine this ecosystem are welcome!
 
-Generate realistic attack telemetry, develop detections, and measure detection coverage against MITRE ATT&CK techniques.
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a branch: `git checkout -b feature/new-cyber-range`.
+3. ✍️ Add your entry in the appropriate table/category following the established format:
+   - For SaaS products: provide specific starting pricing and exact free tier/trial limits.
+   - For Open-Source projects: include the GitHub star badge linking to the repository's stargazers page and ensure proper star ranking.
+4. 🚀 Submit a Pull Request with a clear description of the contribution.
 
-Full Open-Source Cyber Range
+---
 
-CyberRangeCZ → OpenStack/Proxmox → Terraform/Ansible → Vulnerable Infrastructure → Caldera/Atomic Red Team → Security Onion/Wazuh → CTFd → Grafana/OpenSearch
+## ⚖️ Disclaimer
 
-This architecture can reproduce a substantial portion of the technical functionality associated with commercial cyber-range platforms while retaining control over the underlying infrastructure and exercise content.
+*This curated repository is maintained for educational, research, and workforce development purposes. Commercial trademarks, product names, and company logos belong to their respective owners. Offensive security tools, vulnerable labs, and exploits should strictly be deployed in isolated, authorized environments.*
 
-Cyber Range Building Blocks
-Infrastructure Layer
+---
 
-OpenStack — Private cloud infrastructure.
-
-Proxmox VE — Virtualization and container platform.
-
-KVM/QEMU — Open-source virtualization.
-
-VMware-compatible environments — Enterprise virtualization environments.
-
-Terraform — Infrastructure-as-code.
-
-Ansible — Configuration automation.
-
-Packer — Automated VM-image creation.
-
-Vagrant — Reproducible virtual environments.
-
-Kubernetes — Container orchestration.
-
-Docker — Containerized exercise environments.
-
-Range Orchestration Layer
-
-CyberRangeCZ — Full cyber-range orchestration.
-
-KYPO CRP — Legacy open-source cyber-range.
-
-Orion Range — Lab-as-code orchestration.
-
-Open Cyber Range — Self-hosted training platform.
-
-AWS CyberRange — Cloud-based range blueprint.
-
-Exercise Content Layer
-
-CTFd — CTF management.
-
-Mellivora — CTF platform.
-
-RootTheBox — Gamified training.
-
-picoCTF — Cybersecurity challenges.
-
-OWASP Juice Shop — Web security.
-
-WebGoat — Web security.
-
-DVWA — Web vulnerability training.
-
-Vulhub — Vulnerable containers.
-
-VulnHub — Vulnerable machines.
-
-Attack Layer
-
-MITRE Caldera — Adversary emulation.
-
-Atomic Red Team — Atomic ATT&CK tests.
-
-Metasploit — Exploitation.
-
-Sliver — Red-team operations.
-
-Mythic — C2 and adversary emulation.
-
-Impacket — Windows/network attack tooling.
-
-BloodHound — Active Directory attack-path analysis.
-
-Stratus Red Team — Cloud attack simulation.
-
-CloudGoat — AWS security scenarios.
-
-Defense Layer
-
-Security Onion — SOC platform.
-
-Wazuh — SIEM/XDR.
-
-Zeek — Network security monitoring.
-
-Suricata — IDS/IPS.
-
-Snort — IDS/IPS.
-
-Velociraptor — Endpoint investigation.
-
-TheHive — Incident response.
-
-Arkime — Network traffic analysis.
-
-Intelligence Layer
-
-MISP — Threat intelligence.
-
-OpenCTI — CTI knowledge graph.
-
-Sigma — Detection rules.
-
-YARA — Malware detection.
-
-OpenBAS — Breach-and-attack simulation.
-
-Measurement Layer
-
-CTFd — Challenge scoring.
-
-Grafana — Dashboards.
-
-Prometheus — Metrics.
-
-OpenSearch — Search/analytics.
-
-Kibana — Security visualization.
-
-MITRE ATT&CK — Technique mapping.
-
-Custom scoring engines — Exercise-specific performance metrics.
-
-Important Cyber Range Concepts
-
-Cyber Range — Controlled environment for realistic cybersecurity training, testing, and exercises.
-
-Cyber Training Range — Cyber range specifically designed for workforce education.
-
-Virtual Cyber Range — Cyber range built using virtualized infrastructure.
-
-Cloud Cyber Range — Cyber range hosted on cloud infrastructure.
-
-Hybrid Cyber Range — Combination of physical, virtual, and cloud infrastructure.
-
-Physical Cyber Range — Range containing physical networking and computing equipment.
-
-Cyber Range-as-a-Service — Hosted cyber-range environment.
-
-Range Orchestration — Automated creation and management of range environments.
-
-Range Automation — Automated provisioning and configuration of exercises.
-
-Lab-as-Code — Defining training environments as code.
-
-Infrastructure-as-Code — Programmatic infrastructure provisioning.
-
-Scenario-as-Code — Programmatic definition of cyber scenarios.
-
-Exercise-as-Code — Reproducible definition of complete exercises.
-
-Cyber Digital Twin — Digital representation of an organization's technology environment.
-
-Network Digital Twin — Simulated representation of an enterprise network.
-
-Enterprise Network Simulation — Reproduction of enterprise network architecture.
-
-Network Emulation — Reproduction of network behavior.
-
-System Emulation — Simulation of computing environments.
-
-Sandbox — Isolated environment for executing potentially dangerous activity.
-
-Training Sandbox — Isolated environment for hands-on learning.
-
-Scenario — Defined sequence of cyber events and objectives.
-
-Exercise — Structured cybersecurity activity with objectives and evaluation.
-
-Inject — Event introduced into an exercise to test participant response.
-
-Exercise Control — Management of exercise activities.
-
-White Team — Team responsible for exercise administration and control.
-
-Red Team — Offensive team simulating attackers.
-
-Blue Team — Defensive team protecting the environment.
-
-Purple Team — Team coordinating offensive and defensive activities.
-
-Green Team — Team responsible for range infrastructure and environment management.
-
-Gold Team — Leadership/evaluation team in some exercise structures.
-
-Adversary Emulation — Reproducing attacker behavior.
-
-Attack Simulation — Simulating cyberattacks.
-
-Breach Simulation — Simulating compromise and attacker activity.
-
-Breach-and-Attack Simulation (BAS) — Automated validation of security controls.
-
-Threat Emulation — Reproduction of realistic threats.
-
-Threat Simulation — Controlled simulation of threat activity.
-
-Attack Path Simulation — Simulation of multi-step attacker movement.
-
-Lateral Movement Simulation — Simulation of attacker movement between systems.
-
-Privilege Escalation Simulation — Simulation of gaining higher privileges.
-
-Credential Attack Simulation — Simulation of credential compromise.
-
-Phishing Simulation — Controlled simulation of phishing attacks.
-
-Malware Simulation — Safe simulation of malware behavior.
-
-Ransomware Simulation — Controlled ransomware exercise.
-
-DDoS Simulation — Controlled denial-of-service exercise.
-
-Cloud Attack Simulation — Simulation of attacks against cloud environments.
-
-Container Attack Simulation — Simulation of attacks against containers.
-
-Kubernetes Security Exercise — Hands-on Kubernetes attack-defense training.
-
-Active Directory Exercise — Enterprise identity-security training.
-
-OT/ICS Cyber Range — Range designed around operational technology.
-
-IoT Cyber Range — Range focused on connected devices.
-
-Web Security Lab — Environment for application-security training.
-
-Mobile Security Lab — Environment for mobile security training.
-
-API Security Lab — Environment for API security exercises.
-
-Cloud Security Lab — Environment for cloud-security exercises.
-
-SOC Simulator — Environment reproducing security operations.
-
-SOC Training — Hands-on security operations training.
-
-Threat Hunting Lab — Environment for threat-hunting exercises.
-
-Incident Response Lab — Environment for incident-response practice.
-
-Digital Forensics Lab — Environment for forensic investigation.
-
-Malware Analysis Lab — Isolated malware-analysis environment.
-
-Detection Engineering Lab — Environment for building and testing detections.
-
-CTF — Capture The Flag cybersecurity competition.
-
-Jeopardy CTF — Challenge-based CTF format.
-
-Attack-Defense CTF — Competition combining offense and defense.
-
-King of the Hill — Competition involving control of systems.
-
-Gamification — Game mechanics applied to cybersecurity training.
-
-Flag — Evidence of completing a cybersecurity challenge.
-
-Scoring Engine — System calculating exercise performance.
-
-Leaderboard — Ranking participants or teams.
-
-Skill Assessment — Measurement of technical cybersecurity capability.
-
-Skills Matrix — Mapping skills across individuals or teams.
-
-Competency Mapping — Mapping exercises to required competencies.
-
-Role-Based Training — Training tailored to specific cybersecurity roles.
-
-Adaptive Learning — Training paths that change based on performance.
-
-Personalized Learning — Individualized cybersecurity training.
-
-Learning Path — Structured sequence of cybersecurity exercises.
-
-Exercise Library — Collection of reusable scenarios.
-
-Scenario Library — Collection of attack-defense scenarios.
-
-Challenge Library — Collection of hands-on challenges.
-
-Scenario Generator — Tool for automatically generating exercises.
-
-Dynamic Provisioning — Automatically creating environments when needed.
-
-On-Demand Labs — Labs created when users request them.
-
-Ephemeral Labs — Temporary training environments.
-
-Persistent Labs — Long-running training environments.
-
-Environment Reset — Restoring an environment to its baseline state.
-
-Snapshot Reset — Restoring VMs from snapshots.
-
-Golden Image — Standardized base VM image.
-
-Baseline Environment — Known-good initial state.
-
-Environment Drift — Changes from the original environment state.
-
-Multi-Tenant Range — Cyber range supporting multiple organizations or groups.
-
-Multi-User Range — Range supporting concurrent participants.
-
-Multiplayer Exercise — Collaborative exercise involving multiple participants.
-
-Team Exercise — Training exercise performed by a team.
-
-Collaborative Cyber Defense — Joint defensive activity.
-
-Remote Cyber Range — Range accessible remotely.
-
-Browser-Based Cyber Range — Range accessed through a browser.
-
-Attack Box — Preconfigured environment used by a trainee to conduct exercises.
-
-Jump Host — Controlled access system into a training network.
-
-Bastion Host — Secure entry point into an environment.
-
-Network Segmentation — Isolating portions of the training environment.
-
-Air-Gapped Range — Range isolated from external networks.
-
-Internet-Isolated Range — Range without direct Internet access.
-
-Controlled Egress — Restricted outbound connectivity.
-
-Range Firewall — Firewall controlling range traffic.
-
-Traffic Generator — Generates realistic network traffic.
-
-User Simulator — Simulates users and business activity.
-
-Synthetic Data — Artificial data used in exercises.
-
-Synthetic Users — Artificial users for realistic scenarios.
-
-Synthetic Enterprise — Artificial enterprise environment.
-
-Enterprise Emulation — Reproduction of enterprise technology stacks.
-
-Digital Twin Range — Cyber range representing a real organization.
-
-Live-Fire Exercise — Realistic exercise involving live systems or tools.
-
-Tabletop Exercise — Discussion-based incident-response exercise.
-
-Functional Exercise — Exercise testing specific organizational functions.
-
-Full-Scale Exercise — Comprehensive operational cyber exercise.
-
-Cyber Drill — Short, focused cyber exercise.
-
-Cyber Defense Exercise (CDX) — Exercise centered on defensive capabilities.
-
-Red Team Exercise — Offensive security exercise.
-
-Blue Team Exercise — Defensive security exercise.
-
-Purple Team Exercise — Coordinated offense-defense exercise.
-
-Threat Hunting Exercise — Exercise focused on finding adversaries.
-
-Incident Response Exercise — Exercise focused on responding to incidents.
-
-Crisis Simulation — High-level organizational cyber crisis exercise.
-
-Cyber Readiness — Organization's ability to respond effectively to cyber threats.
-
-Operational Readiness — Ability of teams and technology to perform under realistic conditions.
-
-Cyber Resilience — Ability to withstand and recover from cyberattacks.
-
-SOC Maturity — Maturity of security operations capabilities.
-
-Detection Coverage — Portion of attack techniques detectable by defenses.
-
-MITRE ATT&CK Coverage — Mapping defensive capabilities to ATT&CK techniques.
-
-Detection Rate — Percentage of simulated attacks detected.
-
-False Positive Rate — Rate of incorrectly triggered detections.
-
-Mean Time to Detect (MTTD) — Average time required to detect an attack.
-
-Mean Time to Respond (MTTR) — Average time required to respond to an incident.
-
-Mean Time to Contain (MTTC) — Average time required to contain an incident.
-
-Response Quality — Quality of defensive response.
-
-Analyst Performance — Measurement of SOC analyst performance.
-
-Team Performance — Measurement of team-level cyber performance.
-
-Cyber Skills Gap — Difference between required and available cybersecurity skills.
-
-Skills Validation — Demonstrating practical cybersecurity capabilities.
-
-Hands-On Training — Learning through practical exercises.
-
-Experiential Learning — Learning through realistic experiences.
-
-Cyber Muscle Memory — Repeated practice of incident-response actions.
-
-Readiness Assessment — Evaluation of cyber operational readiness.
-
-Security Control Validation — Testing whether security controls work as expected.
-
-Detection Validation — Testing whether detections identify attacks.
-
-Control Effectiveness — Measurement of security-control performance.
-
-Purple Teaming — Collaborative testing between attackers and defenders.
-
-Continuous Validation — Repeated automated security testing.
-
-Continuous Threat Exposure Management — Continuous identification and validation of exposure.
-
-Attack Surface Simulation — Simulation of attacks against exposed assets.
-
-Adversary Simulation — Controlled reproduction of adversary behavior.
-
-ATT&CK Mapping — Mapping activity to MITRE ATT&CK.
-
-TTP Simulation — Simulation of tactics, techniques, and procedures.
-
-Cyber Exercise Automation — Automated creation and execution of exercises.
-
-Exercise Orchestration — Coordinating multiple systems during an exercise.
-
-Range Telemetry — Data generated by the cyber range.
-
-Exercise Telemetry — Data generated during exercises.
-
-Security Telemetry — Logs and signals from security infrastructure.
-
-PCAP Replay — Replaying captured network traffic.
-
-Attack Replay — Reproducing historical attacks.
-
-Incident Replay — Reconstructing previous incidents.
-
-Scenario Replay — Re-running an exercise.
-
-After-Action Review — Review performed after an exercise.
-
-After-Action Report — Formal exercise results report.
-
-Exercise Analytics — Analysis of participant performance.
-
-Performance Dashboard — Visualization of exercise metrics.
-
-Executive Cyber Dashboard — Management-level cyber-readiness dashboard.
-
-Cyber Readiness Score — Aggregate measure of cyber readiness.
-
-Security Validation Score — Measure of defensive effectiveness.
-
-Exercise Fidelity — Realism of a cyber-range environment.
-
-Simulation Fidelity — Accuracy of simulated systems and behavior.
-
-Operational Realism — Similarity to real-world operating conditions.
-
-Scenario Realism — Realism of attack and defense scenarios.
-
-Environment Realism — Realism of the underlying infrastructure.
-
-Enterprise Tool Integration — Integration with real enterprise security products.
-
-SIEM Integration — Integration with security-information platforms.
-
-EDR Integration — Integration with endpoint detection systems.
-
-SOAR Integration — Integration with security orchestration systems.
-
-Firewall Integration — Integration with network-security controls.
-
-Identity Integration — Integration with enterprise identity infrastructure.
-
-Cloud Integration — Integration with cloud environments.
-
-Security Toolchain Simulation — Reproduction of enterprise security tooling.
-
-Cyber Range Interoperability — Ability to integrate multiple range technologies.
-
-Range Federation — Connecting multiple cyber ranges.
-
-Distributed Cyber Range — Cyber range distributed across locations.
-
-National Cyber Range — Large-scale range for national cyber exercises.
-
-Academic Cyber Range — Range designed for universities and education.
-
-Government Cyber Range — Range designed for government training and exercises.
-
-Enterprise Cyber Range — Range designed for organizational training.
-
-Military Cyber Range — Range designed for military cyber operations.
-
-Research Cyber Range — Range designed for cybersecurity research.
-
-Cybersecurity Workforce Development — Training and developing cybersecurity professionals.
-
-Cyber Talent Development — Developing cybersecurity skills.
-
-Cyber Workforce Readiness — Measuring workforce readiness.
-
-Continuous Cyber Training — Ongoing practical cybersecurity training.
-
-Cyber Range Platform — Software infrastructure for operating cyber ranges.
-
-Cyber Range Management Platform — Administrative layer for managing cyber ranges.
-
-Cyber Range Orchestrator — Software for automatically creating and controlling ranges.
-
-Cyber Range Engine — Core runtime infrastructure for cyber-range environments.
-
-Cyber Range Portal — User interface for accessing exercises.
-
-Cyber Range Marketplace — Catalog of reusable training environments and exercises.
-
-Cyber Range-as-Code — Complete cyber ranges represented programmatically.
-
-Open-Source Cyber Range — Cyber range built primarily using open-source technologies.
-
-Self-Hosted Cyber Range — Cyber range operated on privately controlled infrastructure.
-
-Composable Cyber Range — Range assembled from independent infrastructure and security components.
-
-Cyber Range Stack — Full collection of technologies required to operate a cyber range.
-
-Cyber Range Infrastructure — Compute, network, storage, and virtualization infrastructure.
-
-Cyber Range Content — Training scenarios, challenges, and exercises.
-
-Cyber Range Automation — Automation of provisioning and exercise execution.
-
-Cyber Range Analytics — Measurement of exercise and participant performance.
-
-Cyber Range AI — AI used to generate scenarios, emulate users, or adapt exercises.
-
-AI-Driven Cyber Range — Cyber range incorporating AI-driven simulation and training.
-
-Adaptive Cyber Range — Range that dynamically changes based on participant behavior.
-
-Autonomous Cyber Range — Range capable of automatically generating or adapting scenarios.
-
-Agentic Cyber Range — Cyber range using AI agents to simulate attackers, defenders, users, or infrastructure.
-
-AI Adversary Emulation — AI-driven simulation of attacker behavior.
-
-AI SOC Simulation — AI-driven simulation of security operations.
-
-Autonomous Red Teaming — Automated offensive security testing.
-
-Autonomous Blue Teaming — Automated defensive response.
-
-AI-Generated Scenarios — Automatically generated cybersecurity exercises.
-
-AI Exercise Instructor — AI assistant supporting cybersecurity training.
-
-AI Cyber Coach — AI-driven personalized cybersecurity instructor.
-
-AI-Assisted Threat Hunting — AI assistance for identifying threats.
-
-AI-Assisted Incident Response — AI assistance for responding to incidents.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow the existing format).
-
-Include: name, official link or GitHub repository, 1–2 sentence description, and whether it is SaaS/hosted or open-source.
-
-For open-source projects, identify the primary capability — cyber-range orchestration, CTF, vulnerable infrastructure, attack simulation, SOC simulation, detection engineering, threat intelligence, or infrastructure.
-
-Clearly distinguish OSI-approved open source, source-available, open-core, and commercial hosted projects.
-
-Verify the current license before adding an open-source entry.
-
-Prefer actively maintained repositories with meaningful documentation and recent development.
-
-Avoid describing a security tool as a complete cyber-range platform unless it actually provides range infrastructure, orchestration, or training capabilities.
-
-Submit a PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Commercial cyber-range platforms frequently combine infrastructure orchestration, training content, attack simulation, defensive tooling, scoring, analytics, and enterprise integrations.
-
-The open-source ecosystem is considerably more fragmented and generally requires combining multiple projects.
-
-A penetration-testing tool, vulnerable VM, SIEM, or CTF platform is not necessarily a complete cyber-range platform, but may be an important component of one.
-
-Some projects may have multiple components or licensing models. Always verify the current license for the specific repository/component before deployment.
-
-Cyber ranges should be isolated from production infrastructure unless the exercise is explicitly designed and authorized to test production systems.
-
-Offensive-security tools should only be used against systems and environments for which you have explicit authorization.
-
-Self-hosted cyber ranges require appropriate network isolation, access controls, monitoring, backups, resource management, and security hardening.
-
-Vulnerable machines and intentionally insecure applications should never be exposed directly to the public Internet.
-
-Cloud-based cyber ranges can incur significant infrastructure costs; use appropriate quotas, budgets, and automatic shutdown policies.
-
-Training scenarios should be designed to prevent accidental impact to external systems or unauthorized targets.
-
-Made for cybersecurity professionals, SOC teams, red teams, blue teams, purple teams, security engineers, CISOs, universities, government organizations, military cyber teams, researchers, and cybersecurity educators.
-Let's make cyber-range training more open, realistic, reproducible, automated, scalable, and accessible.
+<p align="center">
+  <b>Built for cybersecurity professionals, SOC teams, red/blue teams, and security researchers worldwide.</b><br>
+  <sub>Let's make hands-on cybersecurity training accessible, realistic, automated, and scalable. 🚀</sub>
+</p>
