@@ -60,7 +60,7 @@ The following enterprise and SaaS cyber range solutions provide managed cloud in
 
 Top open-source projects for building self-hosted cyber ranges, vulnerable testbeds, adversary emulation pipelines, and SOC analysis stacks. *Sorted in descending order of GitHub star count.*
 
-| 🛠️ Project & Repository | ⭐ Stars | 📂 Category | 📖 Description |
+| 🛠️ Project & Repository | ⭐ Github_Stars | 📂 Category | 📖 Description |
 | :--- | :---: | :--- | :--- |
 | **[Metasploit Framework](https://github.com/rapid7/metasploit-framework)** | [![GitHub stars](https://img.shields.io/github/stars/rapid7/metasploit-framework?style=social&color=white)](https://github.com/rapid7/metasploit-framework/stargazers) | ⚔️ Attack / Exploitation | World's most used penetration testing and exploit development framework. |
 | **[Vulhub](https://github.com/vulhub/vulhub)** | [![GitHub stars](https://img.shields.io/github/stars/vulhub/vulhub?style=social&color=white)](https://github.com/vulhub/vulhub/stargazers) | 🎯 Vulnerable Labs | Pre-built vulnerable Docker environments for hands-on vulnerability testing and exploitation. |
